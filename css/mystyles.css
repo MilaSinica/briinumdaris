@@ -65,19 +65,9 @@ body {
 }
 .padding-x {
     margin-top: 6%;
-    -webkit-transition: background-color .5s ease-in-out;
-        -moz-transition: background-color .5s ease-in-out;
-            transition: background-color .5s ease-in-out;
     background-color: rgba(1,1,1,0.3);
     padding: 2%;
     margin-bottom: 20%;
-}
-.padding-x:hover {
-    -webkit-transition: background-color .5s ease-in-out;
-        -moz-transition: background-color .5s ease-in-out;
-            transition: background-color .5s ease-in-out;
-    background-color: rgba(1,1,1,0);
-    padding: 2%;
 }
 .img-logo {
     width: 70px;

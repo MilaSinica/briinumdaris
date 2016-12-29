@@ -1,0 +1,96 @@
+body {
+    background-image: url("../img/balloon.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #2685b1;
+}    
+.text-ru {
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
+.text-ru1 {
+    color: white;
+    font-family: 'Reem Kufi', sans-serif;
+    font-size: 16px;
+    text-align: center;
+}
+@media (max-width: 1170px) {
+    body {
+    background-image: url("../img/balloon5.jpg");
+    }
+}
+@media (max-width: 970px) {
+    body {
+    background-image: url("../img/balloon4.jpg");
+    }
+}
+@media (max-width: 870px) {
+    body {
+    background-image: url("../img/balloon2.jpg");
+    }
+}
+@media (max-width: 750px) {
+    body {
+    background-image: url("../img/balloon6.jpg");
+    }
+}
+@media (max-width: 550px) {
+    body {
+    background-image: url("../img/balloon7.jpg");
+    }
+}
+.fb {
+    text-align: center;
+}
+.fa {
+    color: white;
+    -webkit-transition: color .2s ease-in-out; 
+        -moz-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+}
+.fa:hover {
+    color: #5363de;
+    -webkit-transition: color .2s ease-in-out;
+        -moz-transition: color .2s ease-in-out;
+            transition: color .2s ease-in-out;
+
+}
+.facebook:{
+    margin: 0 auto;
+    display: block;
+}
+.padding-x {
+    margin-top: 6%;
+    -webkit-transition: background-color .5s ease-in-out;
+        -moz-transition: background-color .5s ease-in-out;
+            transition: background-color .5s ease-in-out;
+    background-color: rgba(1,1,1,0.3);
+    padding: 2%;
+    margin-bottom: 20%;
+}
+.padding-x:hover {
+    -webkit-transition: background-color .5s ease-in-out;
+        -moz-transition: background-color .5s ease-in-out;
+            transition: background-color .5s ease-in-out;
+    background-color: rgba(1,1,1,0);
+    padding: 2%;
+}
+.img-logo {
+    width: 70px;
+}
+.text-ru2 {
+    font-size: 30px;
+    font-family: 'Griffy', cursive;
+    text-align: center;
+    color: white;
+}
+.text-lv {
+    color: white;
+    font-family: 'Arial';
+    font-size: 13px;
+    text-align: center;
+}
